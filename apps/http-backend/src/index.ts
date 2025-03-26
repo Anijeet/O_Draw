@@ -6,10 +6,14 @@ import {CreateRoomSchema, CreateUserSchema, SigninSchema} from "@repo/common/tex
 import { prismaClient } from "@repo/db/client";
 import bcrypt from "bcrypt"
 import cors from "cors"
-4
+
 const app=express()
 app.use(express.json())
 app.use(cors())
+
+app.get('/',(req,res)=>{  
+    res.send('Hello World!')
+})
 
 app.post('/signup',async (req,res)=>{
 
