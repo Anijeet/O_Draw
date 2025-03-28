@@ -20,7 +20,7 @@ app.use(cors({
   }))
 
 app.get('/',(req,res)=>{  
-    res.send('Hello World!')
+    res.send('Hello !')
 })
 
 app.post('/signup',async (req,res)=>{
