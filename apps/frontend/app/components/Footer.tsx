@@ -11,19 +11,19 @@ const Footer = () => {
         Contact Us
       </h1>
       <div className="flex p-20 px-60 gap-40 w-full">
-        <a href="mailto:anijeetmani18@gmail.com" className="flex text-md gap-1 hover:bg-[#f89442] p-1 rounded cursor-pointer items-center">
-          <MdEmail /> anijeetmani18@gmail.com
+        <a href="#" className="flex text-md gap-1 hover:bg-[#f89442] p-1 rounded cursor-pointer items-center">
+          <MdEmail /> johndoe@gmail.com
         </a>
-        <a href="tel:+919046290691" className="flex text-md gap-1 hover:bg-[#f89442] p-1 rounded cursor-pointer items-center">
-          <FaPhoneAlt /> +91 9046290691
+        <a href="#" className="flex text-md gap-1 hover:bg-[#f89442] p-1 rounded cursor-pointer items-center">
+          <FaPhoneAlt /> +91 9999999999
         </a>
-        <a href="https://www.linkedin.com/in/anijeet-mani-557225262/"
+        <a href="#"
         target="_blank"
         rel="noopener noreferrer" className="flex text-md gap-1 hover:bg-[#f89442] p-1 rounded cursor-pointer items-center">
           <FaLinkedin />
           Linked In
         </a>
-        <a href="https://github.com/Anijeet/Online_Draw"
+        <a href="#"
         target="_blank"
         rel="noopener noreferrer" className="flex text-md gap-1 hover:bg-[#f89442] p-1 rounded cursor-pointer items-center">
           <FaGithub />
