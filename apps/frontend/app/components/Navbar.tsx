@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="w-30 flex items-center gap-6 ">
-        <a href="https://github.com/Anijeet/Online_Draw"
+        <a href="#"
         target="_blank"
         rel="noopener noreferrer" className="flex p-1 px-2 rounded-lg hover:bg-[#efe9e5] cursor-pointer  items-center gap-1">
           <FaGithub />1.1k
